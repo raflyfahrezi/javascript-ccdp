@@ -1,4 +1,3 @@
-let name = null
 let instance = null
 
 class Student {
