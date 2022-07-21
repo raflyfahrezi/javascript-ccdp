@@ -1,3 +1,5 @@
+const BangunDatar = require('./bangunDatar')
+
 class Persegi {
     constructor(sisi) {
         this.sisi = sisi

@@ -1,16 +1,9 @@
-const Persegi = require('./persegi')
-const Lingkaran = require('./lingkaran')
-
 class BangunDatar {
-    getBangunDatar(namaBangunDatar) {
-        switch (namaBangunDatar) {
-            case 'persegi':
-                return new Persegi()
-            case 'lingkaran':
-                return new Lingkaran()
-            default:
-                return null
-        }
+    luas() {
+        throw new Error('You must implement the abstract method')
+    }
+    keliling() {
+        throw new Error('You must implement the abstract method')
     }
 }
 

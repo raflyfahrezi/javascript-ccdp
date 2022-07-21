@@ -1,3 +1,5 @@
+const BangunDatar = require('./bangunDatar')
+
 class Lingkaran {
     constructor(sisi) {
         this.sisi = sisi

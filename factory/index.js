@@ -1,6 +1,6 @@
-const BangunDatar = require('./bangunDatar')
+const BangunDatarFactory = require('./bangunDatarFactory')
 
-const bangunDatarFactory = new BangunDatar()
+const bangunDatarFactory = new BangunDatarFactory()
 
 const persegi = bangunDatarFactory.getBangunDatar('persegi')
 const lingkaran = bangunDatarFactory.getBangunDatar('lingkaran')
