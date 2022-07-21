@@ -24,3 +24,8 @@ const personProxy = new Proxy(person, {
 personProxy.name = 'Benno'
 personProxy.age = 20
 personProxy.nationality = 'Indonesia'
+
+console.log('')
+
+personProxy.address
+personProxy.name
