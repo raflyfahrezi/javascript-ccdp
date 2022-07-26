@@ -1,7 +1,7 @@
 class Student {
     constructor() {
         this.name
-        this.age
+        this.year
         this.id
     }
 
@@ -13,12 +13,12 @@ class Student {
         return this.name
     }
 
-    setAge(age) {
-        this.age = age
+    setYear(year) {
+        this.year = year
     }
 
-    getAge() {
-        return this.age
+    getYear() {
+        return this.year
     }
 
     setId(id) {

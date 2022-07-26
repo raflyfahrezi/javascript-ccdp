@@ -1,8 +1,8 @@
 class StudentView {
     printStudent(student) {
-        console.log(`ID: ${student.id}`)
+        console.log(`NIM: ${student.id}`)
         console.log(
-            `My name is ${student.name} and I am ${student.age} years old.`
+            `Nama saya ${student.name} dan saya angkatan tahun ${student.year}.`
         )
     }
 }

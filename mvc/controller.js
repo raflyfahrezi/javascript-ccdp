@@ -12,12 +12,12 @@ class StudentController {
         return this.student.getName()
     }
 
-    setAge(age) {
-        this.student.setAge(age)
+    setYear(year) {
+        this.student.setYear(year)
     }
 
-    getAge() {
-        return this.student.getAge()
+    getYear() {
+        return this.student.getYear()
     }
 
     setId(id) {

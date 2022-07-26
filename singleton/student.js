@@ -2,11 +2,10 @@ let instance = null
 
 class Student {
     constructor() {
-        if (instance) {
-            return instance
-        }
-
-        instance = this
+        // if (instance) {
+        //     return instance
+        // }
+        // instance = this
     }
 
     getInstance() {
